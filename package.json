@@ -12,7 +12,8 @@
     "preview": "npm run build && vite preview --host",
     "type:check": "vue-tsc --noEmit --skipLibCheck",
     "lint-staged": "npx lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "czg"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
@@ -62,6 +63,7 @@
     "@vue/babel-plugin-jsx": "^1.1.1",
     "consola": "^2.15.3",
     "cross-env": "^7.0.3",
+    "czg": "^1.6.1",
     "eslint": "^8.25.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",

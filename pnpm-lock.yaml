@@ -98,6 +98,9 @@ devDependencies:
   cross-env:
     specifier: ^7.0.3
     version: 7.0.3
+  czg:
+    specifier: ^1.6.1
+    version: 1.6.1
   eslint:
     specifier: ^8.25.0
     version: 8.38.0
@@ -2466,6 +2469,11 @@ packages:
     dependencies:
       bin-build: 3.0.0
       bin-wrapper: /bin-wrapper-china@0.1.0
+    dev: true
+
+  /czg@1.6.1:
+    resolution: {integrity: sha512-F6xzZ+ooLqCOLdsT7miEZRInaTjoglY5CjT5Hc4Yg9gxwLS2zjfUUFGvemVgUZI+ggzFAHE6VL0PA+4ukbOWgQ==}
+    hasBin: true
     dev: true
 
   /dargs@7.0.0:
