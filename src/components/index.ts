@@ -29,6 +29,7 @@ use([
 
 export default {
   install(Vue: App) {
+    // 注册组件，如果没有权限，不予展示
     Vue.component('Chart', Chart);
     Vue.component('Breadcrumb', Breadcrumb);
   },
